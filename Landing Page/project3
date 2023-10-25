@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Startup Company Landing Page</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #262626;
+            color: #ffffff;
+        }
+
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background-color: #35424a;
+            padding: 15px 50px;
+        }
+
+        #logo {
+            color: #ffffff;
+            font-size: 1.5em;
+        }
+
+        nav {
+            display: flex;
+            align-items: center;
+        }
+
+        nav a {
+            color: #ffffff;
+            text-decoration: none;
+            padding: 10px 20px;
+        }
+
+        nav a:hover {
+            background-color: #ffffff;
+            color: #35424a;
+        }
+
+        #signup-button {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            margin-left: 20px;
+        }
+
+        #slideshow-container {
+            position: relative;
+            text-align: center;
+            color: #ffffff;
+            width: 100%;
+            height: 100vh;
+            overflow: hidden;
+        }
+
+        #slideshow-container img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            position: absolute;
+            top: 0;
+            left: 0;
+            z-index: -1;
+        }
+
+        #search-bar {
+            background-color: rgba(0, 0, 0, 0.5);
+            border-radius: 5px;
+            padding: 10px;
+            display: flex;
+            width: 50%;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+
+        #search-bar input[type="text"] {
+            flex: 1;
+            padding: 8px;
+            border: none;
+            border-radius: 5px 0 0 5px;
+            background-color: #ffffff;
+            color: #262626;
+        }
+
+        #search-bar button {
+            background-color: #4CAF50;
+            color: white;
+            padding: 8px 15px;
+            border: none;
+            border-radius: 0 5px 5px 0;
+            cursor: pointer;
+        }
+
+        #search-bar button i {
+            color: #fff;
+        }
+
+        footer {
+            background-color: #35424a;
+            text-align: center;
+            padding: 20px 0;
+        }
+
+        footer a {
+            color: #ffffff;
+            text-decoration: none;
+            padding: 5px;
+        }
+
+        footer a:before {
+            font-family: 'Font Awesome 5 Free';
+            font-weight: 900;
+            margin-right: 5px;
+        }
+
+        .about-section {
+            text-align: center;
+            padding: 50px;
+            background-color: #333333;
+        }
+
+        .services-section {
+            text-align: center;
+            padding: 50px;
+            background-color: #2a2a2a;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <div id="logo">Startup Company</div>
+        <nav>
+            <a href="#">Home</a>
+            <a href="#about">About</a>
+            <a href="#services">Services</a>
+            <a href="#">Contact</a>
+            <button id="signup-button"><a href="register.html">Sign Up</a></button>
+        </nav>
+    </header>
+    <div id="slideshow-container">
+        <img src="https://wallpapercave.com/wp/5JdtbnY.jpg" alt="Background Image">
+        <div id="search-bar">
+            <input type="text" placeholder="Search..." style="color: #262626;">
+            <button><i class="fas fa-search"></i></button>
+        </div>
+    </div>
+    <div class="about-section" id="about">
+        <h2>About Us</h2>
+        <p>Welcome to Startup Company. We aim to revolutionize the industry with innovative solutions.</p>
+    </div>
+    <div class="services-section" id="services">
+        <h2>Our Services</h2>
+        <p>Explore our comprehensive range of services tailored to meet your business needs.</p>
+    </div>
+    <footer>
+        <div>
+            <a href="#"><i class="fab fa-facebook-f"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+        </div>
+        <p>&copy; 2023 Startup Company. All rights reserved. | <a href="#">Company Services</a> | <a href="#">Terms and Conditions</a> | <a href="#">Privacy Policy</a></p>
+    </footer>
+</body>
+
+</html>
