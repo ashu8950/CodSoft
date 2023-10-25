@@ -1,0 +1,72 @@
+body, html {
+    height: 100%;
+    width: 100%;
+
+}
+
+.center {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    margin: 50px auto;
+    align-items: center;
+    text-align: center;
+    background: #ffffff; /* Set the background color for the container */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Adding a subtle shadow effect */
+}
+
+.button {
+    flex: 1;
+    padding: 20px;
+    height: 60px;
+    margin: 5px;
+    border: 2px solid black;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 20px;
+    background: #e6e6e6; /* Set the background color for the regular buttons */
+}
+
+.btn {
+    flex: 1;
+    width: 210px;
+    padding: 20px;
+    margin: 5px;
+    border: 2px solid black;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 20px;
+    background: #e6e6e6; /* Set the background color for the special buttons */
+}
+
+.btn1 {
+    flex: 1;
+    padding: 0;
+    margin: 5px;
+    border: 2px solid black;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 20px;
+    background: #e6e6e6; /* Set the background color for the unique buttons */
+}
+
+.row {
+    display: flex;
+    margin: 0;
+}
+
+.output-row input {
+    width: 70%;
+    font-size: 22px;
+    border-radius: 10px;
+    padding: 15px;
+    border: 2px solid black;
+    margin-bottom: 15px;
+    background: #e6e6e6; /* Set the background color for the input field */
+}
